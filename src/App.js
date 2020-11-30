@@ -1,9 +1,10 @@
 import React from "react";
+import FormElements from "./components/FormElements";
 
 function App() {
   return (
     <div className="App">
-      <h1>This works correctly</h1>
+      <FormElements />
     </div>
   );
 }

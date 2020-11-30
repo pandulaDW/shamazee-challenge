@@ -1,0 +1,30 @@
+.form {
+  width: 50%;
+  margin: 10% auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(108, 213, 45, 1) 0%,
+    rgba(0, 178, 98, 1) 100%
+  );
+  border-radius: 5px;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+
+  input[type="text"] {
+    width: 50%;
+    border: none;
+    margin-right: 10px;
+  }
+}
+
+.radioButtons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.radio {
+  display: flex;
+}
