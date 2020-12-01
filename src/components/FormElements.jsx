@@ -1,14 +1,21 @@
 import React, { useState } from "react";
-import styles from "../styles/form.module.scss";
+import { computeSplit } from "../computeSplit";
 import Button from "./Button";
 import Table from "./Table";
+import styles from "../styles/form.module.scss";
 
 const FormElements = () => {
   const [amount, setAmount] = useState(0);
   const [method, setMethod] = useState("equal");
+  const [spread, setSpread] = useState([]);
 
   const handleRadioButton = (e) => {
     setMethod(e.target.value);
+  };
+
+  const handleButtonClick = () => {
+    const donationSpread = computeSplit(amount, method);
+    setSpread(donationSpread);
   };
 
   return (
@@ -40,9 +47,9 @@ const FormElements = () => {
             <p>more.odd</p>
           </div>
         </div>
-        <Button />
+        <Button clickHandler={handleButtonClick} />
       </div>
-      <Table amount={amount} method={method} />
+      <Table amount={amount} method={method} spread={spread} />
     </>
   );
 };
