@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shamazee-challenge/static/css/main.c20bf6b9.chunk.css",
+    "main.js": "/shamazee-challenge/static/js/main.ba4c8870.chunk.js",
+    "main.js.map": "/shamazee-challenge/static/js/main.ba4c8870.chunk.js.map",
+    "runtime-main.js": "/shamazee-challenge/static/js/runtime-main.71d5bafa.js",
+    "runtime-main.js.map": "/shamazee-challenge/static/js/runtime-main.71d5bafa.js.map",
+    "static/css/2.3ca2e7a5.chunk.css": "/shamazee-challenge/static/css/2.3ca2e7a5.chunk.css",
+    "static/js/2.8a6b3716.chunk.js": "/shamazee-challenge/static/js/2.8a6b3716.chunk.js",
+    "static/js/2.8a6b3716.chunk.js.map": "/shamazee-challenge/static/js/2.8a6b3716.chunk.js.map",
+    "index.html": "/shamazee-challenge/index.html",
+    "static/css/2.3ca2e7a5.chunk.css.map": "/shamazee-challenge/static/css/2.3ca2e7a5.chunk.css.map",
+    "static/css/main.c20bf6b9.chunk.css.map": "/shamazee-challenge/static/css/main.c20bf6b9.chunk.css.map",
+    "static/js/2.8a6b3716.chunk.js.LICENSE.txt": "/shamazee-challenge/static/js/2.8a6b3716.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71d5bafa.js",
+    "static/css/2.3ca2e7a5.chunk.css",
+    "static/js/2.8a6b3716.chunk.js",
+    "static/css/main.c20bf6b9.chunk.css",
+    "static/js/main.ba4c8870.chunk.js"
+  ]
+}
