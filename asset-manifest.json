@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/shamazee-challenge/static/css/main.c20bf6b9.chunk.css",
-    "main.js": "/shamazee-challenge/static/js/main.ba4c8870.chunk.js",
-    "main.js.map": "/shamazee-challenge/static/js/main.ba4c8870.chunk.js.map",
+    "main.js": "/shamazee-challenge/static/js/main.71d7e496.chunk.js",
+    "main.js.map": "/shamazee-challenge/static/js/main.71d7e496.chunk.js.map",
     "runtime-main.js": "/shamazee-challenge/static/js/runtime-main.71d5bafa.js",
     "runtime-main.js.map": "/shamazee-challenge/static/js/runtime-main.71d5bafa.js.map",
     "static/css/2.3ca2e7a5.chunk.css": "/shamazee-challenge/static/css/2.3ca2e7a5.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.3ca2e7a5.chunk.css",
     "static/js/2.8a6b3716.chunk.js",
     "static/css/main.c20bf6b9.chunk.css",
-    "static/js/main.ba4c8870.chunk.js"
+    "static/js/main.71d7e496.chunk.js"
   ]
 }
