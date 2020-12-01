@@ -1,10 +1,10 @@
 import React from "react";
-import FormElements from "./components/FormElements";
+import MainContainer from "./components/MainContainer";
 
 function App() {
   return (
     <div className="App">
-      <FormElements />
+      <MainContainer />
     </div>
   );
 }
