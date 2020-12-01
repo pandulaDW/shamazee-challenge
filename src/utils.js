@@ -23,7 +23,7 @@ export const sum = (list) => {
  */
 export const validatePositiveInteger = (num) => {
   switch (true) {
-    case "":
+    case num === "":
       return false;
 
     case isNaN(num):
