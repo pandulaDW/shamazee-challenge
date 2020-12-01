@@ -1,8 +1,6 @@
 .form {
-  width: 50%;
-  margin: 100px auto 0px;
-  display: flex;
-  justify-content: center;
+  width: 36%;
+  margin: 60px auto 0px;
   padding: 50px 0px;
   background: linear-gradient(
     90deg,
@@ -11,20 +9,40 @@
   );
   border-radius: 5px;
   box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+  font-family: "Josefin Sans", sans-serif;
 
-  input[type="text"] {
-    width: 50%;
-    border: none;
-    margin-right: 10px;
-  }
+  display: grid;
+  grid-template-columns: 40% 20% 10%;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputElements {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputText {
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
 }
 
 .radioButtons {
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
 }
 
 .radio {
   display: flex;
+
+  p {
+    margin-left: 10px;
+  }
 }

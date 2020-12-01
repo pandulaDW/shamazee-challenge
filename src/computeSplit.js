@@ -21,7 +21,7 @@ export const computeSplit = (amount, method) => {
       .fill(1)
       .slice(0, 9)
       .map((_, idx) =>
-        idx % 2 !== 0 ? roundDownByTwo(oddAmount) : roundDownByTwo(eventAmount)
+        idx % 2 === 0 ? roundDownByTwo(oddAmount) : roundDownByTwo(eventAmount)
       );
     finalDayAmount = amount - sum(splittedDonations);
   }

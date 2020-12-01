@@ -13,12 +13,16 @@ const FormElements = (props) => {
 
   return (
     <div className={styles.form}>
-      <input
-        type="text"
-        name="value"
-        style={{ color: !validNum && "red" }}
-        onChange={handleInputElement}
-      />
+      <div className={styles.inputElement}>
+        <label htmlFor="value">Enter your donation amount:</label>
+        <input
+          type="text"
+          name="value"
+          style={{ color: !validNum && "red" }}
+          onChange={handleInputElement}
+          className={styles.inputText}
+        />
+      </div>
       <div className={styles.radioButtons}>
         <div className={styles.radio}>
           <input

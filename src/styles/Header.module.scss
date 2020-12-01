@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+  h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    color: rgb(126, 126, 126);
+  }
+}
+
+.icon {
+  font-size: 30px;
+  margin-right: 10px;
+  color: rgb(7, 158, 15);
+}
